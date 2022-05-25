@@ -6,7 +6,8 @@ body{
   font-family: 'Poppins', sans-serif;      margin:  50px;
       color:white;
   transition: background 0.2s linear;
-  background-color: #1e1f26;
+  /* background-color: #1e1f26; */
+  background-color: #100e17;
 
 }
 h1{
@@ -14,8 +15,13 @@ h1{
     font-weight:800;
 }
 
-
-
+p{
+  color:#58a6da;
+}
+h2{
+  color:#58a6da;
+  font-weight:bolder;
+}
 a{color:#3997D6; text-decoration:none;}
 a:hover{
   text-decoration:underline;

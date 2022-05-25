@@ -1,69 +1,69 @@
 .container {
-    position: absolute;
-    height: 300px;
-    width: 600px;
-    /* top: 60px; */
-    /* left: calc(50% - 300px); */
-    display: flex;
-  }
-  
-  .card {
-    display: flex;
-    height: 280px;
-    width: 200px;
-    background-color: #17141d;
-    border-radius: 10px;
-    box-shadow: -1rem 0 3rem #000;
-  /*   margin-left: -50px; */
-    transition: 0.4s ease-out;
-    position: relative;
-    left: 0px;
-  }
-  
-  .card:not(:first-child) {
-      margin-left: -50px;
-  }
-  
-  .card:hover {
-    transform: translateY(-20px);
-    transition: 0.4s ease-out;
-    cursor: pointer;
-
-  }
-  
-  .card:hover ~ .card {
-    position: relative;
-    left: 50px;
-    transition: 0.4s ease-out;
-    cursor: pointer;
-  }
-  
-  .title {
-    color: white;
-    font-weight: 600;
-    position: absolute;
-    left: 20px;
-    top: 5px;
-    font-size: 25px;
-  }
-  
-  
-  .subtitle {
-    color: white;
-    font-weight: 200;
-    position: absolute;
-    left: 20px;
-    top: 60px;
-  }
-
-  
-.button{
-  margin: 40px 20px;
-  box-shadow: -1rem 0 3rem #000;
-  background-color:#008066;
   position: absolute;
+  height: 300px;
+  width: 700px;
+  /* top: 60px; */
+  /* left: calc(50% - 300px); */
+  display: flex;
+}
+
+.card {
+  display: flex;
+  height: 280px;
+  width: 100%;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+/*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
   left: 0px;
-  top: 150px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+  cursor: pointer;
+
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+  cursor: pointer;
+}
+
+.title {
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  font-size: 25px;
+}
+
+
+.subtitle {
+  color: white;
+  font-weight: 200;
+  position: absolute;
+  left: 20px;
+  top: 60px;
+}
+
+
+.button{
+margin: 40px 20px;
+box-shadow: -1rem 0 3rem #000;
+background-color: #58a6da;
+position: absolute;
+left: 0px;
+top: 150px;
 border:0;
 padding: 16px 22px;
 color:white;
@@ -74,7 +74,7 @@ font-weight: 800;
 }
 
 .button:hover{
-  transition: 0.4s;
-  transform: scale(1.05);
+transition: 0.4s;
+transform: scale(1.05);
 
 }
