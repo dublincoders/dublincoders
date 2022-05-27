@@ -1,42 +1,7 @@
-.container {
-  position: absolute;
-  height: 300px;
-  width: 700px;
-  /* top: 60px; */
-  /* left: calc(50% - 300px); */
-  display: flex;
+html {
+  scroll-behavior: smooth;
 }
 
-.card {
-  display: flex;
-  height: 280px;
-  width: 100%;
-  background-color: #17141d;
-  border-radius: 10px;
-  box-shadow: -1rem 0 3rem #000;
-/*   margin-left: -50px; */
-  transition: 0.4s ease-out;
-  position: relative;
-  left: 0px;
-}
-
-.card:not(:first-child) {
-    margin-left: -50px;
-}
-
-.card:hover {
-  transform: translateY(-20px);
-  transition: 0.4s ease-out;
-  cursor: pointer;
-
-}
-
-.card:hover ~ .card {
-  position: relative;
-  left: 50px;
-  transition: 0.4s ease-out;
-  cursor: pointer;
-}
 
 .title {
   color: white;
@@ -60,7 +25,7 @@
 .button{
 margin: 40px 20px;
 box-shadow: -1rem 0 3rem #000;
-background-color: #58a6da;
+background-color: var(--green);
 position: absolute;
 left: 0px;
 top: 150px;
@@ -78,3 +43,26 @@ transition: 0.4s;
 transform: scale(1.05);
 
 }
+
+
+.start{
+  margin: 40px 20px;
+  box-shadow: -1rem 0 3rem #000;
+ border: 2px solid #008066;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+  padding: 16px 22px;
+  color:white;
+  border-radius: 10px;
+  cursor:pointer;
+  text-decoration: none;
+  font-weight: 800;
+  }
+  
+  .start:hover{
+  transform: scale(1.05);
+  text-decoration: none;
+  transition: 0.4s;
+  background-color: #008066;
+  }

@@ -16,10 +16,17 @@ h1{
 }
 
 p{
-  color:#58a6da;
+  font-weight: 600;
+  color:#A6D9F7;
+
+}
+#app{
+  margin-top: 200px;
+  text-align: center;
+  /* display: none; */
 }
 h2{
-  color:#58a6da;
+  color:#F7DD72;
   font-weight:bolder;
 }
 a{color:#3997D6; text-decoration:none;}
